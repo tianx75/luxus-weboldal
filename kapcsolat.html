@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Kapcsolat | Ingyenes Konzultáció - Tianx</title>
+    <meta name="description" content="Vedd fel velem a kapcsolatot egy ingyenes, 30 perces konzultációra. Töltsd ki az űrlapot és 24 órán belül kereslek.">
+    
+    <meta property="og:title" content="Kapcsolat | Tianx Services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tianx.hu/kapcsolat.html">
+    <meta property="og:image" content="https://tianx.hu/assets/images/og-image.jpg"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">TIANX</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+                    <li><a href="rolunk.html">Rólunk</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-label="Menü megnyitása">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header-section">
+            <div class="container">
+                <h1>Vedd Fel Velem a Kapcsolatot</h1>
+                <p class="subtitle">Készen állsz a következő lépésre? Írj, és hozzuk ki a maximumot a vállalkozásodból!</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="contact-form-wrapper">
+                        <h3>Küldj üzenetet</h3>
+                        <form id="contact-form" action="https://hooks.zapier.com/hooks/catch/22684448/u3kavu7/" method="POST">
+                            <div class="form-group">
+                                <label for="name">Név</label>
+                                <input type="text" id="name" name="name" required placeholder="Gipsz Jakab">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail cím</label>
+                                <input type="email" id="email" name="email" required placeholder="jakab@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefonszám (opcionális)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+36 20 351 7005">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Rövid leírás a projektről</label>
+                                <textarea id="message" name="message" required rows="5" placeholder="Szia Tianx, egy új weboldalra lenne szükségem a ... cégemnek."></textarea>
+                            </div>
+                            <button type="submit" class="cta-button" style="width: 100%;">Üzenet elküldése</button>
+                        </form>
+                        <div id="form-message"></div>
+                    </div>
+                    <div class="contact-info-wrapper">
+                        <h3>Elérhetőségek</h3>
+                        <p>Inkább közvetlenül írnál? Itt is elérsz:</p>
+                        <ul class="contact-info-list">
+                            <li><strong>Email:</strong><br> <a href="mailto:hello@tianx.hu">hello@tianx.hu</a></li>
+                            <li><strong>Telefon:</strong><br> <a href="tel:+36203517005">+36 20 351 7005</a></li>
+                            <li><strong>Munkaidő:</strong><br> H-P: 9:00 - 17:00</li>
+                        </ul>
+                        <p>Minden megkeresésre 24 órán belül válaszolok.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="adatvedelem.html">Adatvédelmi Nyilatkozat</a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Tianx | Minden jog fenntartva.</p>
+        </div>
+    </footer>
+    
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
